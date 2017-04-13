@@ -8,7 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+//#import <HomeUpcomingEventsTableViewCell.h>
+
+
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *HomeUpcomingEventsTableView;
+@property (nonatomic, retain) NSArray *UpcomingEventsTiltleArray;
+@property (nonatomic, retain) NSArray *UpcomingEventsSubtitleArray;
+@property (nonatomic, retain) NSArray *UpcomingEventsTimeArray;
+@property (nonatomic, retain) NSArray *UpcomingEventsImageArray;
 
 
 @end
