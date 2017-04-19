@@ -71,9 +71,11 @@
     return cell;
 }
 
+/*
 - (void) setButtonStyle {
     _SocialAttendingButton.bounds = 
 }
+*/
 
 /*
 - (IBAction)socialChangeSegmentControl:(id)sender {
