@@ -11,7 +11,7 @@
 @interface SocialViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
 
 
-    __weak IBOutlet UISegmentedControl *socialSegmentControl;
+    //__weak IBOutlet UISegmentedControl *socialSegmentControl;
     __weak IBOutlet UILabel *socialLabel;
 }
 
@@ -24,4 +24,5 @@
 @property (nonatomic, retain) NSArray *SocialEventPeoplePlaceArray;
 @property (nonatomic, retain) NSArray *SocialEventXPArray;
 
+@property (weak, nonatomic) IBOutlet UIButton *SocialAttendingButton;
 @end

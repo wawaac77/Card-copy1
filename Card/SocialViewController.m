@@ -71,7 +71,11 @@
     return cell;
 }
 
+- (void) setButtonStyle {
+    _SocialAttendingButton.bounds = 
+}
 
+/*
 - (IBAction)socialChangeSegmentControl:(id)sender {
     if (socialSegmentControl.selectedSegmentIndex == 0) {
         socialLabel.text = @"Attending";
@@ -83,4 +87,5 @@
         socialLabel.text = @"History";
     }
 }
+*/
 @end
