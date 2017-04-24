@@ -18,14 +18,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    _loginWithFBButton.backgroundColor = [UIColor blueColor];
+    _loginWithGoogleButton.backgroundColor = [UIColor redColor];
+    //NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
+    /*
     if (![defaults boolForKey:@"registered"]) {
         NSLog(@"No user registered");
-        _loginNextButton.hidden = YES;
+        _loginNextButton.hidden = NO;
     } else {
         NSLog(@"User is registered");
     }
+    */
 }
 
 - (void)didReceiveMemoryWarning {

@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     _SocialEventTiltleArray = @[@"Disco Dancing Fun Wednesday",@"Steak Thursday",@"Xmas Party 2016",@"Disco Dancing Fun Wednesday",@"Xmas Party 2016",@"Central Park",@"Central Park",@"Central Park",@"Central Park",@"Central Park"];
     _SocialEventTimeArray = @[@"20 Oct 18:00",@"20 Dec 18:00",@"20 Dec 18:00",@"20 Dec 18:00",@"20 Jan 15:00",@"20 Jan 15:00",@"20 Jan 15:00",@"20 Jan 15:00",@" 20 Jan 15:00",@"20 Jan 15:00"];
     _SocialEventPeoplePlaceArray = @[@"16/20  WildFire Steak House", @"16/20  W Hotel Sky Bar", @"5/10  WildFire Steak House", @"6/8  WildFire Steak House", @"20 Oct 18:00  WildFire Steak House", @"20 Oct 18:00  WildFire Steak House"];

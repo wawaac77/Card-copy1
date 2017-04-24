@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "HomeUpcomingEventsTableViewCell.h"
 
-@interface ViewController ()
+@interface ViewController () <UISearchBarDelegate, UISearchDisplayDelegate, UISearchControllerDelegate, UISearchResultsUpdating>
 
 @end
 
@@ -20,11 +20,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setSearchBar];
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    self.tabBarController.tabBar.backgroundColor = [UIColor whiteColor];
+    self.tabBarController.tabBar.translucent = NO;
+    
+    //self.navigationController.navigationBar
+    //self.navigationController.searchDisplayController.displaysSearchBarInNavigationBar = YES;
     _UpcomingEventsTiltleArray = @[@"Jazz Night Club",@"Board Game & New Year Party",@"Art & Cratt Lover Club",@"Grilled House",@"Alice's wonderland",@"Central Park"];
     _UpcomingEventsSubtitleArray = @[@"Music | 16/20",@"Games | 16/20",@"Arts | 16/20",@"4",@"5",@"6"];
     _UpcomingEventsTimeArray = @[@"20 Oct 18:00  WildFire Steak House", @"20 Oct 18:00  W Hotel Sky Bar", @"20 Oct 18:00  WildFire Steak House", @"20 Oct 18:00  WildFire Steak House", @"20 Oct 18:00  WildFire Steak House", @"20 Oct 18:00  WildFire Steak House"];
     _UpcomingEventsImageArray = @[@"music-vector.jpg", @"event-banner-1036x328--03.jpg", @"event-banner-1036x328-05b.jpg", @"pexels-photo-213661.png", @"pexels-photo-213661.png", @"pexels-photo-213661.png"];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)setSearchBar {
+    UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(20.0, 0.0, 200.0, 44.0)];
+    UIView *searchBarContainer = [[UIView alloc] initWithFrame:searchBar.frame];
+    searchBar.userInteractionEnabled = YES;
+    [searchBarContainer addSubview:searchBar];
+    
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -62,6 +77,8 @@
     cell.UpcomingEventsSubtitleLabel.text = _UpcomingEventsSubtitleArray[row];
     cell.UpcomingEventsTimeLabel.text = _UpcomingEventsTimeArray[row];
     cell.UpcomingEventsImageView.image = [UIImage imageNamed:_UpcomingEventsImageArray[row]];
+    //cell.UpcomingEventsImageView.alpha = 0.7;
+    //cell.UpcomingEventsImageView.backgroundColor = [UIColor blackColor];
     //if (cell.registed) {
     cell.UpcomindEventsRegistSign.image = [UIImage imageNamed:@"ic_fa-calendar-check-o.png"];
     //else {

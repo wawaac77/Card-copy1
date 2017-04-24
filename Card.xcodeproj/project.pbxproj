@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7807C7D51EA88ECF001DF827 /* HomepageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7807C7D41EA88ECF001DF827 /* HomepageData.m */; };
+		7807C7D71EA8B4AE001DF827 /* zuzu_App_Icon_167x167.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7807C7D61EA8B4AE001DF827 /* zuzu_App_Icon_167x167.jpg */; };
+		7807C7DA1EA8B4E2001DF827 /* zuzu_App_Icon_180x180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7807C7D91EA8B4E2001DF827 /* zuzu_App_Icon_180x180.jpg */; };
+		7807C7DC1EA8B54A001DF827 /* zuzu_App_Icon_167x167.png in Resources */ = {isa = PBXBuildFile; fileRef = 7807C7DB1EA8B54A001DF827 /* zuzu_App_Icon_167x167.png */; };
 		781154451E79273B00035A1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 781154441E79273B00035A1A /* main.m */; };
 		781154481E79273B00035A1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 781154471E79273B00035A1A /* AppDelegate.m */; };
 		7811544B1E79273B00035A1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811544A1E79273B00035A1A /* ViewController.m */; };
@@ -16,6 +20,10 @@
 		7811545E1E79273B00035A1A /* CardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811545D1E79273B00035A1A /* CardTests.m */; };
 		781154691E79273B00035A1A /* CardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781154681E79273B00035A1A /* CardUITests.m */; };
 		7813559A1E891AC5007C89C3 /* EventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781355991E891AC5007C89C3 /* EventsDetailViewController.m */; };
+		7819D7081EADAAF400AA374C /* attending page reference.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D7071EADAAF400AA374C /* attending page reference.png */; };
+		7819D70A1EADAAFA00AA374C /* hosting page download.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D7091EADAAFA00AA374C /* hosting page download.png */; };
+		7819D70C1EADAAFF00AA374C /* Draft page reference.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D70B1EADAAFF00AA374C /* Draft page reference.png */; };
+		7819D70E1EADAB0400AA374C /* History page reference.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D70D1EADAB0400AA374C /* History page reference.png */; };
 		786E0E8D1E83A3270032E035 /* RestaurantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786E0E8C1E83A3270032E035 /* RestaurantTableViewController.m */; };
 		786E0E931E83C7DB0032E035 /* Free-Converter.com-food-salad-restaurant-person-2274527.png in Resources */ = {isa = PBXBuildFile; fileRef = 786E0E921E83C7DB0032E035 /* Free-Converter.com-food-salad-restaurant-person-2274527.png */; };
 		786E0E991E83CD9D0032E035 /* pexels-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 786E0E981E83CD9D0032E035 /* pexels-photo.png */; };
@@ -198,6 +206,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7807C7D31EA88ECF001DF827 /* HomepageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepageData.h; sourceTree = "<group>"; };
+		7807C7D41EA88ECF001DF827 /* HomepageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepageData.m; sourceTree = "<group>"; };
+		7807C7D61EA8B4AE001DF827 /* zuzu_App_Icon_167x167.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zuzu_App_Icon_167x167.jpg; path = "../../../../Downloads/NinaPagerView-master/Example/ChildVC/zuzu_App_Icon_167x167.jpg"; sourceTree = "<group>"; };
+		7807C7D91EA8B4E2001DF827 /* zuzu_App_Icon_180x180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zuzu_App_Icon_180x180.jpg; sourceTree = "<group>"; };
+		7807C7DB1EA8B54A001DF827 /* zuzu_App_Icon_167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuzu_App_Icon_167x167.png; sourceTree = "<group>"; };
 		781154401E79273B00035A1A /* Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Card.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		781154441E79273B00035A1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		781154461E79273B00035A1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -216,6 +229,10 @@
 		7811546A1E79273B00035A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		781355981E891AC5007C89C3 /* EventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDetailViewController.h; sourceTree = "<group>"; };
 		781355991E891AC5007C89C3 /* EventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDetailViewController.m; sourceTree = "<group>"; };
+		7819D7071EADAAF400AA374C /* attending page reference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "attending page reference.png"; sourceTree = "<group>"; };
+		7819D7091EADAAFA00AA374C /* hosting page download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hosting page download.png"; sourceTree = "<group>"; };
+		7819D70B1EADAAFF00AA374C /* Draft page reference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Draft page reference.png"; sourceTree = "<group>"; };
+		7819D70D1EADAB0400AA374C /* History page reference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "History page reference.png"; sourceTree = "<group>"; };
 		786E0E8B1E83A3270032E035 /* RestaurantTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableViewController.h; sourceTree = "<group>"; };
 		786E0E8C1E83A3270032E035 /* RestaurantTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantTableViewController.m; sourceTree = "<group>"; };
 		786E0E921E83C7DB0032E035 /* Free-Converter.com-food-salad-restaurant-person-2274527.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Free-Converter.com-food-salad-restaurant-person-2274527.png"; sourceTree = "<group>"; };
@@ -432,6 +449,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7807C7D81EA8B4C9001DF827 /* app icon */ = {
+			isa = PBXGroup;
+			children = (
+				7807C7D61EA8B4AE001DF827 /* zuzu_App_Icon_167x167.jpg */,
+				7807C7D91EA8B4E2001DF827 /* zuzu_App_Icon_180x180.jpg */,
+				7807C7DB1EA8B54A001DF827 /* zuzu_App_Icon_167x167.png */,
+			);
+			name = "app icon";
+			sourceTree = "<group>";
+		};
 		781154371E79273B00035A1A = {
 			isa = PBXGroup;
 			children = (
@@ -512,6 +539,8 @@
 			children = (
 				78A055BA1E827D31009DE062 /* SocialData.h */,
 				78A055BB1E827D31009DE062 /* SocialData.m */,
+				7807C7D31EA88ECF001DF827 /* HomepageData.h */,
+				7807C7D41EA88ECF001DF827 /* HomepageData.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -557,6 +586,7 @@
 		78B00D891E7A7E2F004EF18F /* Reference Images */ = {
 			isa = PBXGroup;
 			children = (
+				7807C7D81EA8B4C9001DF827 /* app icon */,
 				78B37C491E94D019003037D4 /* Design Reference Screenshots */,
 				78B37C1C1E94C636003037D4 /* restaurant photos */,
 				78B37B571E94C351003037D4 /* png */,
@@ -812,6 +842,10 @@
 				78B37C501E94D6B0003037D4 /* Desgin Reference-my zuzu-dashboard.png */,
 				78B37C4C1E94D50F003037D4 /* 2017-04-05event-page-reference.png */,
 				78B37C4E1E94D514003037D4 /* 2017-04-05restaurant-detail-reference.png */,
+				7819D7071EADAAF400AA374C /* attending page reference.png */,
+				7819D7091EADAAFA00AA374C /* hosting page download.png */,
+				7819D70B1EADAAFF00AA374C /* Draft page reference.png */,
+				7819D70D1EADAB0400AA374C /* History page reference.png */,
 			);
 			name = "Design Reference Screenshots";
 			sourceTree = "<group>";
@@ -1021,6 +1055,7 @@
 				78B37BEF1E94C351003037D4 /* logo-163x187-login.png in Resources */,
 				78B00D761E7A7CBE004EF18F /* u32.png in Resources */,
 				78AC8F331E84FA270041ED99 /* food-salad-restaurant-person.jpg in Resources */,
+				7807C7D71EA8B4AE001DF827 /* zuzu_App_Icon_167x167.jpg in Resources */,
 				78B37BD01E94C351003037D4 /* ic_fa-heart-o.png in Resources */,
 				78B37C1A1E94C351003037D4 /* my-review.png in Resources */,
 				78B37C0C1E94C351003037D4 /* gold_pin.png in Resources */,
@@ -1035,6 +1070,7 @@
 				78B37C001E94C351003037D4 /* ic_fa-calendar-check-o.png in Resources */,
 				78B37BC31E94C351003037D4 /* ic_ fa-image_280x33.png in Resources */,
 				78B37BE21E94C351003037D4 /* ic_my_zuzu_on.png in Resources */,
+				7819D7081EADAAF400AA374C /* attending page reference.png in Resources */,
 				78B37BFE1E94C351003037D4 /* ic_dishes.png in Resources */,
 				78B37C341E94C636003037D4 /* pexels-photo-260922.png in Resources */,
 				78B37BF21E94C351003037D4 /* zuzu-login-one-image.png in Resources */,
@@ -1044,6 +1080,7 @@
 				78B00D811E7A7CE6004EF18F /* event-banner-1036x328-02.jpg in Resources */,
 				78B37BCC1E94C351003037D4 /* ic_fa-credit-card.png in Resources */,
 				78B37C031E94C351003037D4 /* Ic_fa-star.png in Resources */,
+				7807C7DA1EA8B4E2001DF827 /* zuzu_App_Icon_180x180.jpg in Resources */,
 				78B37BE11E94C351003037D4 /* ic_my_zuzu.png in Resources */,
 				78B00D291E7A376A004EF18F /* bg_login_page.png in Resources */,
 				78B37BD31E94C351003037D4 /* ic_fa-search.png in Resources */,
@@ -1088,6 +1125,7 @@
 				78B37C091E94C351003037D4 /* ic_tag.png in Resources */,
 				78B37BDD1E94C351003037D4 /* ic_plus_roboto_regular.png in Resources */,
 				78B37BF41E94C351003037D4 /* ic_ fa-calendar-plus-o.png in Resources */,
+				7819D70E1EADAB0400AA374C /* History page reference.png in Resources */,
 				78B37BD41E94C351003037D4 /* ic_fa-star-o.png in Resources */,
 				78B37BFF1E94C351003037D4 /* ic_fa-calendar-check-o-on.png in Resources */,
 				78B37BDF1E94C351003037D4 /* ic_home.png in Resources */,
@@ -1106,11 +1144,13 @@
 				78B37BE61E94C351003037D4 /* ic_social_on.png in Resources */,
 				78B37C3C1E94C636003037D4 /* pexels-photo-218844.jpeg in Resources */,
 				78B37C0D1E94C351003037D4 /* grey_pin.png in Resources */,
+				7819D70A1EADAAFA00AA374C /* hosting page download.png in Resources */,
 				78B37C0E1E94C351003037D4 /* Thumbs.db in Resources */,
 				78B37C121E94C351003037D4 /* ic_pen.png in Resources */,
 				78B37C071E94C351003037D4 /* ic_price.png in Resources */,
 				78B00D851E7A7CE6004EF18F /* music-vector.jpg in Resources */,
 				78B37C5A1E94ED86003037D4 /* Design Reference-My Events .png in Resources */,
+				7807C7DC1EA8B54A001DF827 /* zuzu_App_Icon_167x167.png in Resources */,
 				78B37BD91E94C351003037D4 /* ic_fa-users-on.png in Resources */,
 				78B37C011E94C351003037D4 /* ic_fa-credit-card.png in Resources */,
 				78B37C111E94C351003037D4 /* ic_leaderboard.png in Resources */,
@@ -1133,6 +1173,7 @@
 				78B37BC71E94C351003037D4 /* ic_fa-angle-right.png in Resources */,
 				78B37C3B1E94C636003037D4 /* pexels-photo-213661.jpeg in Resources */,
 				78B37C391E94C636003037D4 /* pexels-photo-62097.png in Resources */,
+				7819D70C1EADAAFF00AA374C /* Draft page reference.png in Resources */,
 				78B37BCB1E94C351003037D4 /* ic_fa-commenting-o.png in Resources */,
 				78B37BFB1E94C351003037D4 /* ic_chair.png in Resources */,
 				78B00D841E7A7CE6004EF18F /* event-banner-1080-06.jpg in Resources */,
@@ -1201,6 +1242,7 @@
 				78B37AC71E91F156003037D4 /* HomeNearbyEventsTableViewCell.m in Sources */,
 				781154481E79273B00035A1A /* AppDelegate.m in Sources */,
 				781154451E79273B00035A1A /* main.m in Sources */,
+				7807C7D51EA88ECF001DF827 /* HomepageData.m in Sources */,
 				78B37C461E94CC05003037D4 /* UpcomingEventsTableViewCell.m in Sources */,
 				78D071B31E9CE26100C3D789 /* testTableViewController.m in Sources */,
 				78B37C891E965227003037D4 /* FirstViewController.m in Sources */,

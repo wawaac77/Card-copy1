@@ -12,7 +12,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *emailField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordField;
 @property (weak, nonatomic) IBOutlet UIButton *forgetPasswordButton;
-@property (weak, nonatomic) IBOutlet UIButton *loginNextButton;
+//@property (weak, nonatomic) IBOutlet UIButton *loginNextButton;
 @property (weak, nonatomic) IBOutlet UIButton *loginWithFBButton;
 @property (weak, nonatomic) IBOutlet UIButton *loginWithGoogleButton;
 - (IBAction)loginEmailInput:(id)sender;
