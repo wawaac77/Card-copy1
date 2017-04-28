@@ -24,6 +24,8 @@
 		7819D70A1EADAAFA00AA374C /* hosting page download.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D7091EADAAFA00AA374C /* hosting page download.png */; };
 		7819D70C1EADAAFF00AA374C /* Draft page reference.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D70B1EADAAFF00AA374C /* Draft page reference.png */; };
 		7819D70E1EADAB0400AA374C /* History page reference.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D70D1EADAB0400AA374C /* History page reference.png */; };
+		7819D7141EB08E5500AA374C /* MyEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7819D7131EB08E5500AA374C /* MyEventsViewController.m */; };
+		7819D7161EB2D11B00AA374C /* ic_fa-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7819D7151EB2D11B00AA374C /* ic_fa-heart.png */; };
 		786E0E8D1E83A3270032E035 /* RestaurantTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786E0E8C1E83A3270032E035 /* RestaurantTableViewController.m */; };
 		786E0E931E83C7DB0032E035 /* Free-Converter.com-food-salad-restaurant-person-2274527.png in Resources */ = {isa = PBXBuildFile; fileRef = 786E0E921E83C7DB0032E035 /* Free-Converter.com-food-salad-restaurant-person-2274527.png */; };
 		786E0E991E83CD9D0032E035 /* pexels-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 786E0E981E83CD9D0032E035 /* pexels-photo.png */; };
@@ -233,6 +235,9 @@
 		7819D7091EADAAFA00AA374C /* hosting page download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hosting page download.png"; sourceTree = "<group>"; };
 		7819D70B1EADAAFF00AA374C /* Draft page reference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Draft page reference.png"; sourceTree = "<group>"; };
 		7819D70D1EADAB0400AA374C /* History page reference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "History page reference.png"; sourceTree = "<group>"; };
+		7819D7121EB08E5500AA374C /* MyEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyEventsViewController.h; sourceTree = "<group>"; };
+		7819D7131EB08E5500AA374C /* MyEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyEventsViewController.m; sourceTree = "<group>"; };
+		7819D7151EB2D11B00AA374C /* ic_fa-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_fa-heart.png"; sourceTree = "<group>"; };
 		786E0E8B1E83A3270032E035 /* RestaurantTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableViewController.h; sourceTree = "<group>"; };
 		786E0E8C1E83A3270032E035 /* RestaurantTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantTableViewController.m; sourceTree = "<group>"; };
 		786E0E921E83C7DB0032E035 /* Free-Converter.com-food-salad-restaurant-person-2274527.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Free-Converter.com-food-salad-restaurant-person-2274527.png"; sourceTree = "<group>"; };
@@ -604,6 +609,8 @@
 				78D3F5E61E8106D300A15876 /* SocialViewController.m */,
 				781355981E891AC5007C89C3 /* EventsDetailViewController.h */,
 				781355991E891AC5007C89C3 /* EventsDetailViewController.m */,
+				7819D7121EB08E5500AA374C /* MyEventsViewController.h */,
+				7819D7131EB08E5500AA374C /* MyEventsViewController.m */,
 			);
 			name = Social;
 			sourceTree = "<group>";
@@ -646,6 +653,7 @@
 		78B37B581E94C351003037D4 /* font awesome */ = {
 			isa = PBXGroup;
 			children = (
+				7819D7151EB2D11B00AA374C /* ic_fa-heart.png */,
 				78B37B591E94C351003037D4 /* ic_ fa-calendar-plus-o.png */,
 				78B37B5A1E94C351003037D4 /* ic_ fa-check-square-o.png */,
 				78B37B5B1E94C351003037D4 /* ic_ fa-coffee.png */,
@@ -1054,6 +1062,7 @@
 				78B37BE71E94C351003037D4 /* Thumbs.db in Resources */,
 				78B37BEF1E94C351003037D4 /* logo-163x187-login.png in Resources */,
 				78B00D761E7A7CBE004EF18F /* u32.png in Resources */,
+				7819D7161EB2D11B00AA374C /* ic_fa-heart.png in Resources */,
 				78AC8F331E84FA270041ED99 /* food-salad-restaurant-person.jpg in Resources */,
 				7807C7D71EA8B4AE001DF827 /* zuzu_App_Icon_167x167.jpg in Resources */,
 				78B37BD01E94C351003037D4 /* ic_fa-heart-o.png in Resources */,
@@ -1223,6 +1232,7 @@
 				78B37C961E965227003037D4 /* NinaPagerView.m in Sources */,
 				786E0E8D1E83A3270032E035 /* RestaurantTableViewController.m in Sources */,
 				78B37ACA1E91F18C003037D4 /* HomeUpcomingEventsTableViewCell.m in Sources */,
+				7819D7141EB08E5500AA374C /* MyEventsViewController.m in Sources */,
 				78BC7DF91E8CCD30004BEFF4 /* UserLoginViewController.m in Sources */,
 				78AC8F311E84D5FA0041ED99 /* RestaurantTableCell.m in Sources */,
 				78B37C8B1E965227003037D4 /* NinthViewController.m in Sources */,

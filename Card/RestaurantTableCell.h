@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RestaurantTableCell : UITableViewCell
+@interface RestaurantTableCell : UITableViewCell {
+    //BOOL liked;
+}
+
 @property (strong, nonatomic)IBOutlet UILabel *restaurantTitleLabel;
 @property (strong, nonatomic)IBOutlet UILabel *restaurantLocationLabel;
 @property (strong, nonatomic)IBOutlet UILabel *restaurantDescriptionLabel;
 @property (strong, nonatomic)IBOutlet UIImageView *restaurantTableImageView;
 @property (strong, nonatomic)IBOutlet UIImageView *restaurantLikedImageView;
+@property (weak, nonatomic) IBOutlet UIButton *restaurantLikedButton;
+//- (IBAction)likedAction:(id)sender;
 
 @end

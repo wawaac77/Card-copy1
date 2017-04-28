@@ -10,9 +10,12 @@
 
 @implementation RestaurantTableCell
 
+//@synthesize restaurantLikedButton;
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -20,5 +23,18 @@
 
     // Configure the view for the selected state
 }
+
+
+/*
+- (IBAction)likedAction:(id)sender {
+    if (!liked) {
+        [restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart-on.png"] forState:UIControlStateNormal];
+        liked = YES;
+    } else if (liked) {
+        [restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-commenting-o.png"] forState:UIControlStateNormal];
+        liked = NO;
+    }
+}
+*/
 
 @end

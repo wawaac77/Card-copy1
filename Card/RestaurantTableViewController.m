@@ -17,12 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    liked = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     _restaurantTiltleArray = @[@"Volcano Grill",@"Ginza West",@"Sand Cafe",@"Grilled House",@"Alice's wonderland",@"Central Park"];
     _restaurantLocationArray = @[@"Causeway Bay · 5.3km",@"2432riouwoiewiofcnldsnclnklsajdlkslkdnlkc;naknddf",@"3",@"4",@"5",@"6"];
     _restaurantDescriptionArray = @[@"$100 - 200 per person | Japanese Cuisine", @"$100 - 200 per person | Japanese Cuisine", @"Amarican", @"Korean", @"Chinese", @"Spanish"];
     _restaurantImageArray = @[@"pexels-photo-29346.png", @"pexels-photo-38106.png", @"pexels-photo-62097.png", @"pexels-photo-213661.png", @"pexels-photo-218844.png", @"pexels-photo-260922.png"];
+    //_restaurantLiked = @[@"NO", @"NO", @"NO", @"NO", @"NO", @"NO"];
 
 }
 
@@ -56,42 +58,40 @@
     cell.restaurantDescriptionLabel.text = _restaurantDescriptionArray[row];
     cell.restaurantTableImageView.image = [UIImage imageNamed:_restaurantImageArray[row]];
     cell.restaurantLikedImageView.image = [UIImage imageNamed:@"ic_fa-heart-o.png"];
-    /*
-    UIImage *restaurantImage1 = [UIImage imageNamed:@"Free-Converter.com-food-salad-restaurant-person-2274527.png"];
-    UIImage *restaurantImage2 = [UIImage imageNamed:@"pexels-photo.png"];
-    UIImage *restaurantImage3 = [UIImage imageNamed:@"pexels-photo-213661.png"];
-    
-    //Set the image in the row
-    
-    
-    switch (indexPath.row) {
-        case 0:
-            cell.imageView.image = restaurantImage1;
-            break;
-        
-        case 1:
-            cell.imageView.image = restaurantImage1;
-            break;
-            
-        case 2:
-            cell.imageView.image = restaurantImage3;
-            break;
-
-            
-        default:
-            cell.imageView.image = restaurantImage2;
-            break;
-    }
-    //cell.restaurantImage.image = restaurantImage1;
-    
-    
-    cell.textLabel.text = [self.restaurantTiltleObjectsArray objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = [self.restaurantSubtiltleObjectsArray objectAtIndex:indexPath.row];
-     
-    */
-    
+    //cell.restaurantLikedButton.imageView.image = [UIImage imageNamed:@"ic_fa-heart.png"];
+    [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
+    //setup for restaurant liked function
+    cell.restaurantLikedButton.tag = indexPath.row;
+    //[cell.restaurantLikedButton addTarget:self action:@selector(likedButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+   
     return cell;
 }
+
+/*
+- (void)likedButtonClick: (id)sender {
+    UIButton *senderButton = (UIButton *) sender;
+    RestaurantTableCell *cell = ((RestaurantTableCell *)[sender superview]);
+    if (!liked) {
+        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart-on.png"] forState:UIControlStateNormal];
+        //_restaurantLiked[senderButton.tag] = YES;
+    } else if (_restaurantLiked) {
+        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
+        //_restaurantLiked[senderButton.tag] = NO;
+        
+    }
+    /*
+    if (!_restaurantLiked[senderButton.tag]) {
+        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart-on.png"] forState:UIControlStateNormal];
+        //_restaurantLiked[senderButton.tag] = YES;
+    } else if (_restaurantLiked[senderButton.tag]) {
+        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
+        //_restaurantLiked[senderButton.tag] = NO;
+        
+    }
+ 
+}
+*/
+
 
 
 /*
