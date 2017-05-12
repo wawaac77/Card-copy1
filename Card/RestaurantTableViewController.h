@@ -9,13 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface RestaurantTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource> {
-    BOOL liked;
+    BOOL likedArray[6]; // to record whether the restaurant is liked
 }
 
 @property (nonatomic, retain) NSArray *restaurantTiltleArray;
 @property (nonatomic, retain) NSArray *restaurantLocationArray;
 @property (nonatomic, retain) NSArray *restaurantDescriptionArray;
 @property (nonatomic, retain) NSArray *restaurantImageArray;
-@property (nonatomic, retain) NSArray *restaurantLiked;
 
 @end

@@ -9,5 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface MyEventsViewController : UIViewController
+/*
+@property (weak, nonatomic) IBOutlet UIView *firstContainer;
+@property (weak, nonatomic) IBOutlet UIView *secondContainer;
+@property (weak, nonatomic) IBOutlet UIView *thirdContainer;
+@property (weak, nonatomic) IBOutlet UIView *forthContainer;
+- (IBAction)firstAction:(id)sender;
+- (IBAction)secondAction:(id)sender;
+- (IBAction)thirdAction:(id)sender;
+- (IBAction)forthAction:(id)sender;
+*/
+
 
 @end

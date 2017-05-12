@@ -17,15 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    liked = NO;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     _restaurantTiltleArray = @[@"Volcano Grill",@"Ginza West",@"Sand Cafe",@"Grilled House",@"Alice's wonderland",@"Central Park"];
     _restaurantLocationArray = @[@"Causeway Bay · 5.3km",@"2432riouwoiewiofcnldsnclnklsajdlkslkdnlkc;naknddf",@"3",@"4",@"5",@"6"];
     _restaurantDescriptionArray = @[@"$100 - 200 per person | Japanese Cuisine", @"$100 - 200 per person | Japanese Cuisine", @"Amarican", @"Korean", @"Chinese", @"Spanish"];
     _restaurantImageArray = @[@"pexels-photo-29346.png", @"pexels-photo-38106.png", @"pexels-photo-62097.png", @"pexels-photo-213661.png", @"pexels-photo-218844.png", @"pexels-photo-260922.png"];
-    //_restaurantLiked = @[@"NO", @"NO", @"NO", @"NO", @"NO", @"NO"];
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,53 +42,33 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *CellIdentifier = @"RestaurantTableCell";
+    static NSString *CellIdentifier = @"RestaurantCell";
     RestaurantTableCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    //cell.imageView.frame = CGRectMake(0,0,32,32);
-    
-    //Create UIImages
+    //set the content of each cell
     NSInteger row = [indexPath row];
-    
     cell.restaurantTitleLabel.text = _restaurantTiltleArray[row];
     cell.restaurantLocationLabel.text = _restaurantLocationArray[row];
     cell.restaurantDescriptionLabel.text = _restaurantDescriptionArray[row];
     cell.restaurantTableImageView.image = [UIImage imageNamed:_restaurantImageArray[row]];
-    cell.restaurantLikedImageView.image = [UIImage imageNamed:@"ic_fa-heart-o.png"];
-    //cell.restaurantLikedButton.imageView.image = [UIImage imageNamed:@"ic_fa-heart.png"];
-    [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
-    //setup for restaurant liked function
-    cell.restaurantLikedButton.tag = indexPath.row;
-    //[cell.restaurantLikedButton addTarget:self action:@selector(likedButtonClick:) forControlEvents:UIControlEventTouchUpInside];
-   
+    [cell.RestaurantButton setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
+    
+    //action that the button would trigger
+    cell.RestaurantButton.tag = indexPath.row;
+    [cell.RestaurantButton addTarget:self action:@selector(likedButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+    NSLog(@"restaurant: the running row is %d", indexPath.row);
     return cell;
 }
 
-/*
-- (void)likedButtonClick: (id)sender {
-    UIButton *senderButton = (UIButton *) sender;
-    RestaurantTableCell *cell = ((RestaurantTableCell *)[sender superview]);
-    if (!liked) {
-        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart-on.png"] forState:UIControlStateNormal];
-        //_restaurantLiked[senderButton.tag] = YES;
-    } else if (_restaurantLiked) {
-        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
-        //_restaurantLiked[senderButton.tag] = NO;
-        
+- (IBAction)likedButtonClick:(id)sender {
+    NSInteger i = [sender tag];
+    likedArray[i] = !likedArray[i];
+    if (likedArray[i]) {
+        [sender setImage:[UIImage imageNamed:@"ic_fa-heart-o.png"] forState:UIControlStateNormal];
+    } else {
+         [sender setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
     }
-    /*
-    if (!_restaurantLiked[senderButton.tag]) {
-        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart-on.png"] forState:UIControlStateNormal];
-        //_restaurantLiked[senderButton.tag] = YES;
-    } else if (_restaurantLiked[senderButton.tag]) {
-        [cell.restaurantLikedButton setImage:[UIImage imageNamed:@"ic_fa-heart.png"] forState:UIControlStateNormal];
-        //_restaurantLiked[senderButton.tag] = NO;
-        
-    }
- 
 }
-*/
-
 
 
 /*

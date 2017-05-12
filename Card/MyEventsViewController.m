@@ -7,6 +7,10 @@
 //
 
 #import "MyEventsViewController.h"
+#import "SocialAttendingViewController.h"
+#import "SocialHostingViewController.h"
+#import "SocialDraftViewController.h"
+#import "SocialHistoryViewController.h"
 
 @interface MyEventsViewController ()
 
@@ -24,6 +28,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)addSubviews {
+    SocialAttendingViewController *AttendingVC = [[SocialAttendingViewController alloc] init];
+    [self addChildViewController:AttendingVC];
+    [AttendingVC didMoveToParentViewController:self];
+    [self.view addSubview:AttendingVC.view];
+    
+    SocialHostingViewController *HostingVC = [[SocialHostingViewController alloc] init];
+    [self addChildViewController:HostingVC];
+    [HostingVC didMoveToParentViewController:self];
+    [self.view addSubview:HostingVC.view];
+    
+    SocialDraftViewController *DraftVC = [[SocialDraftViewController alloc] init];
+    [self addChildViewController:DraftVC];
+    [DraftVC didMoveToParentViewController:self];
+    [self.view addSubview:DraftVC.view];
+    
+    SocialHistoryViewController *HistoryVC = [[SocialHistoryViewController alloc] init];
+    [self addChildViewController:HistoryVC];
+    [HistoryVC didMoveToParentViewController:self];
+    [self.view addSubview:HistoryVC.view];
+}
+
 /*
 #pragma mark - Navigation
 
@@ -33,5 +59,33 @@
     // Pass the selected object to the new view controller.
 }
 */
+/*
+- (IBAction)firstAction:(id)sender {
+    _firstContainer.alpha = 1.0;
+    _secondContainer.alpha = 0.0;
+    _thirdContainer.alpha = 0.0;
+    _forthContainer.alpha = 0.0;
+}
+
+- (IBAction)secondAction:(id)sender {
+    _firstContainer.alpha = 0.0;
+    _secondContainer.alpha = 1.0;
+    _thirdContainer.alpha = 0.0;
+    _forthContainer.alpha = 0.0;
+}
+- (IBAction)thirdAction:(id)sender {
+    _firstContainer.alpha = 0.0;
+    _secondContainer.alpha = 0.0;
+    _thirdContainer.alpha = 1.0;
+    _forthContainer.alpha = 0.0;
+}
+
+- (IBAction)forthAction:(id)sender {
+    _firstContainer.alpha = 0.0;
+    _secondContainer.alpha = 0.0;
+    _thirdContainer.alpha = 0.0;
+    _forthContainer.alpha = 1.0;
+}
+ */
 
 @end

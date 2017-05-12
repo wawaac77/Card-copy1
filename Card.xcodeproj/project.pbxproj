@@ -31,6 +31,20 @@
 		786E0E991E83CD9D0032E035 /* pexels-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 786E0E981E83CD9D0032E035 /* pexels-photo.png */; };
 		786E0E9B1E83CE800032E035 /* pexels-photo-213661.png in Resources */ = {isa = PBXBuildFile; fileRef = 786E0E9A1E83CE800032E035 /* pexels-photo-213661.png */; };
 		78A055BC1E827D31009DE062 /* SocialData.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A055BB1E827D31009DE062 /* SocialData.m */; };
+		78AA0C491EC1B85E00A248E0 /* ContainerMyEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C481EC1B85E00A248E0 /* ContainerMyEventsViewController.m */; };
+		78AA0C4F1EC1DDC100A248E0 /* SocialHostingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C4E1EC1DDC100A248E0 /* SocialHostingViewController.m */; };
+		78AA0C521EC1DDCF00A248E0 /* SocialDraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C511EC1DDCF00A248E0 /* SocialDraftViewController.m */; };
+		78AA0C551EC1DDE200A248E0 /* SocialHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C541EC1DDE200A248E0 /* SocialHistoryViewController.m */; };
+		78AA0C571EC2BD5900A248E0 /* ic_create_event_plus_o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AA0C561EC2BD5900A248E0 /* ic_create_event_plus_o.png */; };
+		78AA0C591EC2BD5F00A248E0 /* ic_create_event_plus_calendar_o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AA0C581EC2BD5F00A248E0 /* ic_create_event_plus_calendar_o.png */; };
+		78AA0C5C1EC2C59C00A248E0 /* EventDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C5B1EC2C59C00A248E0 /* EventDetailViewController.m */; };
+		78AA0C5E1EC3016800A248E0 /* ic_ fa-calendar-plus-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AA0C5D1EC3016800A248E0 /* ic_ fa-calendar-plus-o.png */; };
+		78AA0C601EC3043800A248E0 /* gpo-grand-sydney-postales-restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AA0C5F1EC3043800A248E0 /* gpo-grand-sydney-postales-restaurant.png */; };
+		78AA0C621EC3049300A248E0 /* cq5dam.thumbnail.540.296.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AA0C611EC3049300A248E0 /* cq5dam.thumbnail.540.296.png */; };
+		78AA0C651EC3200C00A248E0 /* SocialAttendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C641EC3200C00A248E0 /* SocialAttendingViewController.m */; };
+		78AA0C6A1EC32E5000A248E0 /* EventOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C691EC32E5000A248E0 /* EventOverviewViewController.m */; };
+		78AA0C6D1EC32E6D00A248E0 /* EventDiscussionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C6C1EC32E6D00A248E0 /* EventDiscussionViewController.m */; };
+		78AA0C711EC32E8700A248E0 /* EventPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C701EC32E8700A248E0 /* EventPhotoViewController.m */; };
 		78AC8F2E1E84B1240041ED99 /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC8F2D1E84B1240041ED99 /* RestaurantDetailViewController.m */; };
 		78AC8F311E84D5FA0041ED99 /* RestaurantTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC8F301E84D5FA0041ED99 /* RestaurantTableCell.m */; };
 		78AC8F331E84FA270041ED99 /* food-salad-restaurant-person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78AC8F321E84FA270041ED99 /* food-salad-restaurant-person.jpg */; };
@@ -52,7 +66,6 @@
 		78B37AD71E925534003037D4 /* UpcomingEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B37AD61E925534003037D4 /* UpcomingEventsTableViewController.m */; };
 		78B37AD91E949666003037D4 /* ic_fa-calendar-check-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B37AD81E949666003037D4 /* ic_fa-calendar-check-o.png */; };
 		78B37ADB1E9496ED003037D4 /* ic_ fa-calendar-plus-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B37ADA1E9496ED003037D4 /* ic_ fa-calendar-plus-o.png */; };
-		78B37BBE1E94C351003037D4 /* ic_ fa-calendar-plus-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B37B591E94C351003037D4 /* ic_ fa-calendar-plus-o.png */; };
 		78B37BBF1E94C351003037D4 /* ic_ fa-check-square-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B37B5A1E94C351003037D4 /* ic_ fa-check-square-o.png */; };
 		78B37BC01E94C351003037D4 /* ic_ fa-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B37B5B1E94C351003037D4 /* ic_ fa-coffee.png */; };
 		78B37BC11E94C351003037D4 /* ic_ fa-exclamation-triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B37B5C1E94C351003037D4 /* ic_ fa-exclamation-triangle.png */; };
@@ -188,6 +201,10 @@
 		78BC7DF91E8CCD30004BEFF4 /* UserLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BC7DF81E8CCD30004BEFF4 /* UserLoginViewController.m */; };
 		78D071B31E9CE26100C3D789 /* testTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D071B21E9CE26100C3D789 /* testTableViewController.m */; };
 		78D3F5E81E8106D300A15876 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D3F5E61E8106D300A15876 /* SocialViewController.m */; };
+		78F7A15A1EB89AD00078DFC8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F7A1591EB89AD00078DFC8 /* QuartzCore.framework */; };
+		78F7A15C1EB89AE60078DFC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F7A15B1EB89AE60078DFC8 /* UIKit.framework */; };
+		78F7A15E1EB89AFE0078DFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F7A15D1EB89AFE0078DFC8 /* Foundation.framework */; };
+		78F7A1601EB89B060078DFC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F7A15F1EB89B060078DFC8 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +262,29 @@
 		786E0E9A1E83CE800032E035 /* pexels-photo-213661.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pexels-photo-213661.png"; path = "../pexels-photo-213661.png"; sourceTree = "<group>"; };
 		78A055BA1E827D31009DE062 /* SocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialData.h; sourceTree = "<group>"; };
 		78A055BB1E827D31009DE062 /* SocialData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialData.m; sourceTree = "<group>"; };
+		78AA0C471EC1B85E00A248E0 /* ContainerMyEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerMyEventsViewController.h; sourceTree = "<group>"; };
+		78AA0C481EC1B85E00A248E0 /* ContainerMyEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerMyEventsViewController.m; sourceTree = "<group>"; };
+		78AA0C4D1EC1DDC100A248E0 /* SocialHostingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialHostingViewController.h; sourceTree = "<group>"; };
+		78AA0C4E1EC1DDC100A248E0 /* SocialHostingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialHostingViewController.m; sourceTree = "<group>"; };
+		78AA0C501EC1DDCF00A248E0 /* SocialDraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialDraftViewController.h; sourceTree = "<group>"; };
+		78AA0C511EC1DDCF00A248E0 /* SocialDraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialDraftViewController.m; sourceTree = "<group>"; };
+		78AA0C531EC1DDE200A248E0 /* SocialHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialHistoryViewController.h; sourceTree = "<group>"; };
+		78AA0C541EC1DDE200A248E0 /* SocialHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialHistoryViewController.m; sourceTree = "<group>"; };
+		78AA0C561EC2BD5900A248E0 /* ic_create_event_plus_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_create_event_plus_o.png; sourceTree = "<group>"; };
+		78AA0C581EC2BD5F00A248E0 /* ic_create_event_plus_calendar_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_create_event_plus_calendar_o.png; sourceTree = "<group>"; };
+		78AA0C5A1EC2C59C00A248E0 /* EventDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailViewController.h; sourceTree = "<group>"; };
+		78AA0C5B1EC2C59C00A248E0 /* EventDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailViewController.m; sourceTree = "<group>"; };
+		78AA0C5D1EC3016800A248E0 /* ic_ fa-calendar-plus-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ fa-calendar-plus-o.png"; sourceTree = "<group>"; };
+		78AA0C5F1EC3043800A248E0 /* gpo-grand-sydney-postales-restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gpo-grand-sydney-postales-restaurant.png"; sourceTree = "<group>"; };
+		78AA0C611EC3049300A248E0 /* cq5dam.thumbnail.540.296.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cq5dam.thumbnail.540.296.png; sourceTree = "<group>"; };
+		78AA0C631EC3200C00A248E0 /* SocialAttendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialAttendingViewController.h; sourceTree = "<group>"; };
+		78AA0C641EC3200C00A248E0 /* SocialAttendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialAttendingViewController.m; sourceTree = "<group>"; };
+		78AA0C681EC32E5000A248E0 /* EventOverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventOverviewViewController.h; sourceTree = "<group>"; };
+		78AA0C691EC32E5000A248E0 /* EventOverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventOverviewViewController.m; sourceTree = "<group>"; };
+		78AA0C6B1EC32E6D00A248E0 /* EventDiscussionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDiscussionViewController.h; sourceTree = "<group>"; };
+		78AA0C6C1EC32E6D00A248E0 /* EventDiscussionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDiscussionViewController.m; sourceTree = "<group>"; };
+		78AA0C6F1EC32E8700A248E0 /* EventPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPhotoViewController.h; sourceTree = "<group>"; };
+		78AA0C701EC32E8700A248E0 /* EventPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPhotoViewController.m; sourceTree = "<group>"; };
 		78AC8F2C1E84B1240041ED99 /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
 		78AC8F2D1E84B1240041ED99 /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
 		78AC8F2F1E84D5FA0041ED99 /* RestaurantTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableCell.h; sourceTree = "<group>"; };
@@ -271,7 +311,6 @@
 		78B37AD61E925534003037D4 /* UpcomingEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpcomingEventsTableViewController.m; sourceTree = "<group>"; };
 		78B37AD81E949666003037D4 /* ic_fa-calendar-check-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_fa-calendar-check-o.png"; sourceTree = "<group>"; };
 		78B37ADA1E9496ED003037D4 /* ic_ fa-calendar-plus-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ fa-calendar-plus-o.png"; sourceTree = "<group>"; };
-		78B37B591E94C351003037D4 /* ic_ fa-calendar-plus-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ fa-calendar-plus-o.png"; sourceTree = "<group>"; };
 		78B37B5A1E94C351003037D4 /* ic_ fa-check-square-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ fa-check-square-o.png"; sourceTree = "<group>"; };
 		78B37B5B1E94C351003037D4 /* ic_ fa-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ fa-coffee.png"; sourceTree = "<group>"; };
 		78B37B5C1E94C351003037D4 /* ic_ fa-exclamation-triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ fa-exclamation-triangle.png"; sourceTree = "<group>"; };
@@ -427,6 +466,10 @@
 		78D071B21E9CE26100C3D789 /* testTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testTableViewController.m; sourceTree = "<group>"; };
 		78D3F5E51E8106D300A15876 /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
 		78D3F5E61E8106D300A15876 /* SocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialViewController.m; sourceTree = "<group>"; };
+		78F7A1591EB89AD00078DFC8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		78F7A15B1EB89AE60078DFC8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78F7A15D1EB89AFE0078DFC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78F7A15F1EB89B060078DFC8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,6 +477,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F7A1601EB89B060078DFC8 /* CoreGraphics.framework in Frameworks */,
+				78F7A15E1EB89AFE0078DFC8 /* Foundation.framework in Frameworks */,
+				78F7A15C1EB89AE60078DFC8 /* UIKit.framework in Frameworks */,
+				78F7A15A1EB89AD00078DFC8 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +518,7 @@
 				7811545C1E79273B00035A1A /* CardTests */,
 				781154671E79273B00035A1A /* CardUITests */,
 				781154411E79273B00035A1A /* Products */,
+				78F7A1581EB89AD00078DFC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -562,6 +610,34 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		78AA0C661EC3222000A248E0 /* My Events Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				78AA0C631EC3200C00A248E0 /* SocialAttendingViewController.h */,
+				78AA0C641EC3200C00A248E0 /* SocialAttendingViewController.m */,
+				78AA0C4D1EC1DDC100A248E0 /* SocialHostingViewController.h */,
+				78AA0C4E1EC1DDC100A248E0 /* SocialHostingViewController.m */,
+				78AA0C501EC1DDCF00A248E0 /* SocialDraftViewController.h */,
+				78AA0C511EC1DDCF00A248E0 /* SocialDraftViewController.m */,
+				78AA0C531EC1DDE200A248E0 /* SocialHistoryViewController.h */,
+				78AA0C541EC1DDE200A248E0 /* SocialHistoryViewController.m */,
+			);
+			name = "My Events Subviews";
+			sourceTree = "<group>";
+		};
+		78AA0C671EC32DF600A248E0 /* Event Detail Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				78AA0C681EC32E5000A248E0 /* EventOverviewViewController.h */,
+				78AA0C691EC32E5000A248E0 /* EventOverviewViewController.m */,
+				78AA0C6B1EC32E6D00A248E0 /* EventDiscussionViewController.h */,
+				78AA0C6C1EC32E6D00A248E0 /* EventDiscussionViewController.m */,
+				78AA0C6F1EC32E8700A248E0 /* EventPhotoViewController.h */,
+				78AA0C701EC32E8700A248E0 /* EventPhotoViewController.m */,
+			);
+			name = "Event Detail Subviews";
+			sourceTree = "<group>";
+		};
 		78B00D771E7A7CE6004EF18F /* event banner */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,8 +685,11 @@
 				78D3F5E61E8106D300A15876 /* SocialViewController.m */,
 				781355981E891AC5007C89C3 /* EventsDetailViewController.h */,
 				781355991E891AC5007C89C3 /* EventsDetailViewController.m */,
+				78AA0C471EC1B85E00A248E0 /* ContainerMyEventsViewController.h */,
+				78AA0C481EC1B85E00A248E0 /* ContainerMyEventsViewController.m */,
 				7819D7121EB08E5500AA374C /* MyEventsViewController.h */,
 				7819D7131EB08E5500AA374C /* MyEventsViewController.m */,
+				78AA0C661EC3222000A248E0 /* My Events Subviews */,
 			);
 			name = Social;
 			sourceTree = "<group>";
@@ -622,6 +701,9 @@
 				7811544A1E79273B00035A1A /* ViewController.m */,
 				78B37AD51E925534003037D4 /* UpcomingEventsTableViewController.h */,
 				78B37AD61E925534003037D4 /* UpcomingEventsTableViewController.m */,
+				78AA0C5A1EC2C59C00A248E0 /* EventDetailViewController.h */,
+				78AA0C5B1EC2C59C00A248E0 /* EventDetailViewController.m */,
+				78AA0C671EC32DF600A248E0 /* Event Detail Subviews */,
 			);
 			name = HomePage;
 			sourceTree = "<group>";
@@ -653,8 +735,8 @@
 		78B37B581E94C351003037D4 /* font awesome */ = {
 			isa = PBXGroup;
 			children = (
+				78AA0C5D1EC3016800A248E0 /* ic_ fa-calendar-plus-o.png */,
 				7819D7151EB2D11B00AA374C /* ic_fa-heart.png */,
-				78B37B591E94C351003037D4 /* ic_ fa-calendar-plus-o.png */,
 				78B37B5A1E94C351003037D4 /* ic_ fa-check-square-o.png */,
 				78B37B5B1E94C351003037D4 /* ic_ fa-coffee.png */,
 				78B37B5C1E94C351003037D4 /* ic_ fa-exclamation-triangle.png */,
@@ -686,6 +768,8 @@
 				78B37B761E94C351003037D4 /* ic_fa_dollar_on.png */,
 				78B37B771E94C351003037D4 /* ic_forward.png */,
 				78B37B781E94C351003037D4 /* ic_plus_roboto_regular.png */,
+				78AA0C561EC2BD5900A248E0 /* ic_create_event_plus_o.png */,
+				78AA0C581EC2BD5F00A248E0 /* ic_create_event_plus_calendar_o.png */,
 				78B37B791E94C351003037D4 /* Thumbs.db */,
 			);
 			path = "font awesome";
@@ -819,6 +903,8 @@
 				78B37C2D1E94C636003037D4 /* pexels-photo-313700.jpeg */,
 				78B37C2E1E94C636003037D4 /* pexels-photo-38106.jpeg */,
 				78B37C2F1E94C636003037D4 /* pexels-photo-62097.jpeg */,
+				78AA0C5F1EC3043800A248E0 /* gpo-grand-sydney-postales-restaurant.png */,
+				78AA0C611EC3049300A248E0 /* cq5dam.thumbnail.540.296.png */,
 				78B37C301E94C636003037D4 /* pexels-photo.jpg */,
 			);
 			path = "restaurant photos";
@@ -954,6 +1040,17 @@
 			path = "../../../../Downloads/NinaPagerView-master/NinaPagerView";
 			sourceTree = "<group>";
 		};
+		78F7A1581EB89AD00078DFC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78F7A15F1EB89B060078DFC8 /* CoreGraphics.framework */,
+				78F7A15D1EB89AFE0078DFC8 /* Foundation.framework */,
+				78F7A15B1EB89AE60078DFC8 /* UIKit.framework */,
+				78F7A1591EB89AD00078DFC8 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1060,7 +1157,9 @@
 			files = (
 				78B37BF61E94C351003037D4 /* ic_ fa-navicon.png in Resources */,
 				78B37BE71E94C351003037D4 /* Thumbs.db in Resources */,
+				78AA0C571EC2BD5900A248E0 /* ic_create_event_plus_o.png in Resources */,
 				78B37BEF1E94C351003037D4 /* logo-163x187-login.png in Resources */,
+				78AA0C591EC2BD5F00A248E0 /* ic_create_event_plus_calendar_o.png in Resources */,
 				78B00D761E7A7CBE004EF18F /* u32.png in Resources */,
 				7819D7161EB2D11B00AA374C /* ic_fa-heart.png in Resources */,
 				78AC8F331E84FA270041ED99 /* food-salad-restaurant-person.jpg in Resources */,
@@ -1087,16 +1186,19 @@
 				78B37C021E94C351003037D4 /* ic_fa-heart-o.png in Resources */,
 				78B37C421E94C636003037D4 /* pexels-photo-62097.jpeg in Resources */,
 				78B00D811E7A7CE6004EF18F /* event-banner-1036x328-02.jpg in Resources */,
+				78AA0C621EC3049300A248E0 /* cq5dam.thumbnail.540.296.png in Resources */,
 				78B37BCC1E94C351003037D4 /* ic_fa-credit-card.png in Resources */,
 				78B37C031E94C351003037D4 /* Ic_fa-star.png in Resources */,
 				7807C7DA1EA8B4E2001DF827 /* zuzu_App_Icon_180x180.jpg in Resources */,
 				78B37BE11E94C351003037D4 /* ic_my_zuzu.png in Resources */,
 				78B00D291E7A376A004EF18F /* bg_login_page.png in Resources */,
 				78B37BD31E94C351003037D4 /* ic_fa-search.png in Resources */,
+				78AA0C601EC3043800A248E0 /* gpo-grand-sydney-postales-restaurant.png in Resources */,
 				78B37BEC1E94C351003037D4 /* facebook-logo-login.png in Resources */,
 				78B37BD71E94C351003037D4 /* ic_fa-star_gold_345_rating.png in Resources */,
 				78B37C141E94C351003037D4 /* ic_trophy.png in Resources */,
 				78B37BCF1E94C351003037D4 /* ic_fa-filter.png in Resources */,
+				78AA0C5E1EC3016800A248E0 /* ic_ fa-calendar-plus-o.png in Resources */,
 				78B37C171E94C351003037D4 /* invite-friends.png in Resources */,
 				78B37BF11E94C351003037D4 /* Thumbs.db in Resources */,
 				78B37BEA1E94C351003037D4 /* ic_logo.png in Resources */,
@@ -1173,7 +1275,6 @@
 				78B00CD21E792ED9004EF18F /* logo-163x187-login.png in Resources */,
 				78B00D881E7A7E1F004EF18F /* u50.png in Resources */,
 				78B37BCD1E94C351003037D4 /* ic_fa-dollar.png in Resources */,
-				78B37BBE1E94C351003037D4 /* ic_ fa-calendar-plus-o.png in Resources */,
 				78B37BF51E94C351003037D4 /* ic_ fa-check-square-o.png in Resources */,
 				78B37C371E94C636003037D4 /* pexels-photo-313700.png in Resources */,
 				78B37BEB1E94C351003037D4 /* bg_login_page.png in Resources */,
@@ -1236,8 +1337,11 @@
 				78BC7DF91E8CCD30004BEFF4 /* UserLoginViewController.m in Sources */,
 				78AC8F311E84D5FA0041ED99 /* RestaurantTableCell.m in Sources */,
 				78B37C8B1E965227003037D4 /* NinthViewController.m in Sources */,
+				78AA0C6D1EC32E6D00A248E0 /* EventDiscussionViewController.m in Sources */,
+				78AA0C551EC1DDE200A248E0 /* SocialHistoryViewController.m in Sources */,
 				78B37C8F1E965227003037D4 /* ThirdViewController.m in Sources */,
 				78A055BC1E827D31009DE062 /* SocialData.m in Sources */,
+				78AA0C491EC1B85E00A248E0 /* ContainerMyEventsViewController.m in Sources */,
 				78B37C851E965227003037D4 /* TabMainViewController.m in Sources */,
 				78B37C8D1E965227003037D4 /* SeventhViewController.m in Sources */,
 				78B37C8E1E965227003037D4 /* SixthViewController.m in Sources */,
@@ -1248,17 +1352,23 @@
 				78B37C8A1E965227003037D4 /* ForthViewController.m in Sources */,
 				78B37C8C1E965227003037D4 /* SecondViewController.m in Sources */,
 				78B37C571E94EAFB003037D4 /* SocialEventsTableViewCell.m in Sources */,
+				78AA0C6A1EC32E5000A248E0 /* EventOverviewViewController.m in Sources */,
+				78AA0C711EC32E8700A248E0 /* EventPhotoViewController.m in Sources */,
 				78B37C871E965227003037D4 /* EighthViewController.m in Sources */,
 				78B37AC71E91F156003037D4 /* HomeNearbyEventsTableViewCell.m in Sources */,
 				781154481E79273B00035A1A /* AppDelegate.m in Sources */,
 				781154451E79273B00035A1A /* main.m in Sources */,
+				78AA0C4F1EC1DDC100A248E0 /* SocialHostingViewController.m in Sources */,
 				7807C7D51EA88ECF001DF827 /* HomepageData.m in Sources */,
 				78B37C461E94CC05003037D4 /* UpcomingEventsTableViewCell.m in Sources */,
+				78AA0C651EC3200C00A248E0 /* SocialAttendingViewController.m in Sources */,
 				78D071B31E9CE26100C3D789 /* testTableViewController.m in Sources */,
 				78B37C891E965227003037D4 /* FirstViewController.m in Sources */,
 				78B37C951E965227003037D4 /* NinaBaseView.m in Sources */,
 				78AC8F2E1E84B1240041ED99 /* RestaurantDetailViewController.m in Sources */,
+				78AA0C5C1EC2C59C00A248E0 /* EventDetailViewController.m in Sources */,
 				78B37AD71E925534003037D4 /* UpcomingEventsTableViewController.m in Sources */,
+				78AA0C521EC1DDCF00A248E0 /* SocialDraftViewController.m in Sources */,
 				78B37C861E965227003037D4 /* ChildBaseViewController.m in Sources */,
 				78D3F5E81E8106D300A15876 /* SocialViewController.m in Sources */,
 			);

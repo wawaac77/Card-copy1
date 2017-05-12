@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[RestaurantTableViewController tableView:cellForRowAtIndexPath:]:RestaurantTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "liked">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RestaurantTableViewController likedButtonClick:]:RestaurantTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "liked">
+            </PersistentString>
+            <PersistentString
+               value = "sender">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
