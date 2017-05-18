@@ -148,7 +148,7 @@
     //add calendar button
     UIButton *calendarButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [calendarButton addTarget:self action:@selector(calendarAction) forControlEvents:UIControlEventTouchUpInside];
-    [calendarButton setImage:[UIImage imageNamed:@"ic_fa-calendar-check-o.png"] forState:UIControlStateNormal];
+    [calendarButton setImage:[UIImage imageNamed:@"ic_fa-calendar-plus-o.png"] forState:UIControlStateNormal];
     calendarButton.frame = CGRectMake(310, 160, 30, 30);
     //[calendarButton setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
     calendarButton.backgroundColor = [UIColor clearColor];

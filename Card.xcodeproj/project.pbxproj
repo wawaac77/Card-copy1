@@ -45,6 +45,8 @@
 		78AA0C6A1EC32E5000A248E0 /* EventOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C691EC32E5000A248E0 /* EventOverviewViewController.m */; };
 		78AA0C6D1EC32E6D00A248E0 /* EventDiscussionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C6C1EC32E6D00A248E0 /* EventDiscussionViewController.m */; };
 		78AA0C711EC32E8700A248E0 /* EventPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AA0C701EC32E8700A248E0 /* EventPhotoViewController.m */; };
+		78AA0CB21EC958D500A248E0 /* ic_fa-heart-while.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AA0CB11EC958D500A248E0 /* ic_fa-heart-while.png */; };
+		78AA0CB41EC9590000A248E0 /* ic_fa-calendar-plus-o.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AA0CB31EC9590000A248E0 /* ic_fa-calendar-plus-o.png */; };
 		78AC8F2E1E84B1240041ED99 /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC8F2D1E84B1240041ED99 /* RestaurantDetailViewController.m */; };
 		78AC8F311E84D5FA0041ED99 /* RestaurantTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AC8F301E84D5FA0041ED99 /* RestaurantTableCell.m */; };
 		78AC8F331E84FA270041ED99 /* food-salad-restaurant-person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78AC8F321E84FA270041ED99 /* food-salad-restaurant-person.jpg */; };
@@ -285,6 +287,8 @@
 		78AA0C6C1EC32E6D00A248E0 /* EventDiscussionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDiscussionViewController.m; sourceTree = "<group>"; };
 		78AA0C6F1EC32E8700A248E0 /* EventPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventPhotoViewController.h; sourceTree = "<group>"; };
 		78AA0C701EC32E8700A248E0 /* EventPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventPhotoViewController.m; sourceTree = "<group>"; };
+		78AA0CB11EC958D500A248E0 /* ic_fa-heart-while.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_fa-heart-while.png"; sourceTree = "<group>"; };
+		78AA0CB31EC9590000A248E0 /* ic_fa-calendar-plus-o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_fa-calendar-plus-o.png"; sourceTree = "<group>"; };
 		78AC8F2C1E84B1240041ED99 /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
 		78AC8F2D1E84B1240041ED99 /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
 		78AC8F2F1E84D5FA0041ED99 /* RestaurantTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantTableCell.h; sourceTree = "<group>"; };
@@ -735,6 +739,8 @@
 		78B37B581E94C351003037D4 /* font awesome */ = {
 			isa = PBXGroup;
 			children = (
+				78AA0CB31EC9590000A248E0 /* ic_fa-calendar-plus-o.png */,
+				78AA0CB11EC958D500A248E0 /* ic_fa-heart-while.png */,
 				78AA0C5D1EC3016800A248E0 /* ic_ fa-calendar-plus-o.png */,
 				7819D7151EB2D11B00AA374C /* ic_fa-heart.png */,
 				78B37B5A1E94C351003037D4 /* ic_ fa-check-square-o.png */,
@@ -1265,9 +1271,11 @@
 				78B37BD91E94C351003037D4 /* ic_fa-users-on.png in Resources */,
 				78B37C011E94C351003037D4 /* ic_fa-credit-card.png in Resources */,
 				78B37C111E94C351003037D4 /* ic_leaderboard.png in Resources */,
+				78AA0CB41EC9590000A248E0 /* ic_fa-calendar-plus-o.png in Resources */,
 				78B37BC41E94C351003037D4 /* ic_ fa-map-o.png in Resources */,
 				78B37BC51E94C351003037D4 /* ic_ fa-navicon.png in Resources */,
 				78B37C351E94C636003037D4 /* pexels-photo-262918.png in Resources */,
+				78AA0CB21EC958D500A248E0 /* ic_fa-heart-while.png in Resources */,
 				78B37BC21E94C351003037D4 /* ic_ fa-image.png in Resources */,
 				78B37BDE1E94C351003037D4 /* Thumbs.db in Resources */,
 				78B37C161E94C351003037D4 /* ic_user_profile.png in Resources */,
